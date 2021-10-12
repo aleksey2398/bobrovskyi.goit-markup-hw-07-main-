@@ -1,0 +1,34 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: opacity 250ms linear, visibility 250ms linear;
+}
+  .is-hidden {
+ opacity: 0;
+ visibility: hidden;
+}
+  
+.button {
+    display: inline-block;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em; 
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background: var(--style-color);
+    border-radius: 4px;
+    border-color: rgba(0, 0, 0 ,0);
+    color: var(--white);
+    cursor: pointer;
+    transition: color, 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
+}

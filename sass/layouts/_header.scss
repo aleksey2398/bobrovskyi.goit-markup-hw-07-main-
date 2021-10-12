@@ -1,0 +1,50 @@
+
+.header {
+background: var(--white);
+border-bottom: 1px solid #ECECEC;
+padding-top: 24px;
+padding-bottom: 25px;
+}
+.header-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.header-mail-svg {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--gray);
+}
+.header-mail-svg:hover,
+.header-mail-svg:focus {
+  color: var(--blue);
+}
+.header-tel-svg {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.header-tel-svg:hover,
+.header-tel-svg:focus {
+  color: var(--blue);
+}
+.icon-contacts{
+fill:grey;
+margin-right: 10px;
+}
+.icon-contacts:hover,
+.icon-contacts:focus {
+  fill:var(--blue);
+}
+
+.header-tel-svg{
+  display: flex;
+  align-items: center;
+}
